@@ -1,7 +1,7 @@
 import numpy as np
 import os
 import time
-from Dataugmenter.src.utils.helper import plot1d, plot2d
+from src.utils.helper import plot1d, plot2d
 
 
 def load_data_from_file(data_file, label_file=None, delimiter=" "):

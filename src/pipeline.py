@@ -1,6 +1,7 @@
 import os
-from Dataugmenter.src.utils.input_data import get_datasets, run_augmentation
-from Dataugmenter.src.utils import datasets as ds
+from src.utils.input_data import get_datasets, run_augmentation
+from src.utils import datasets as ds
+
 
 # Set the working directory to the file's directory
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
@@ -78,8 +79,6 @@ def run_pipeline(args):
     input_shape = (nb_timesteps, nb_dims)
     x_test = x_test.reshape((-1, input_shape[0], input_shape[1]))
     x_train = x_train.reshape((-1, input_shape[0], input_shape[1]))
-    y_test = to_categorical(ds.class_offset(y_test, args.dataset), nb_class)
-    y_train = to_categorical(ds.class_offset(y_train, args.dataset), nb_class)
 
     # Perform data augmentation
     if args.generate_plots:

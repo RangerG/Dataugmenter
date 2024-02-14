@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/AUGMENTRIX.iml" filepath="$PROJECT_DIR$/.idea/AUGMENTRIX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Dataugmenter.iml" filepath="$PROJECT_DIR$/.idea/Dataugmenter.iml" />
     </modules>
   </component>
 </project>

@@ -6,7 +6,7 @@ setup(
     author='Zijun Gao',
     author_email='Zijun_Gao@qq.com',
     description='Time series data augmentation tool library',
-    long_description=open('Dataugmenter/README.md').read(),
+    long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
     install_requires=[
