@@ -12,10 +12,33 @@ Dataugmenter is a Python library designed to facilitate the augmentation of time
 
 ## Installation
 
-To install Data Augmenter, you can use pip:
+You can install `Dataugmenter` either through PyPI using pip or directly from the source code on GitHub.
+
+### Using Pip
+
+To install the latest stable release of `Dataugmenter` from PyPI, use the following command:
 
 ```bash
 pip install Dataugmenter
+```
+
+### From Source
+
+For the latest development version or if you wish to modify the source code, you can install `Dataugmenter` directly from its GitHub repository:
+
+1. Clone the GitHub Repository
+```bash
+git clone https://github.com/RangerG/Dataugmenter.git
+```
+
+2. Navigate to the Repository Directory
+```bash
+cd Dataugmenter
+```
+
+3. Install the Package
+```bash
+pip install .
 ```
 
 ## Usage
