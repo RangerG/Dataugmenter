@@ -78,9 +78,9 @@ Please refer to the documentation for a complete list of supported algorithms an
 ## Parameters
 Here's an overview of key parameters and their default settings:
 
-- `dataset`: The dataset name. Default - "CBF".
-- `augmentation_ratio`: Number of times data is augmented. Default - 1.
-- `seed`: Seed for random number generation. Default - 2.
+- `dataset`: The dataset name. Default - `CBF`.
+- `augmentation_ratio`: Number of times data is augmented. Default - `1`.
+- `seed`: Seed for random number generation. Default - `2`.
 - ... other parameters ...
 
 Refer to the [detailed documentation](./docs/detailed_documentation.md) for a complete list of parameters.
