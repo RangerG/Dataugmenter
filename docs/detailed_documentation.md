@@ -121,6 +121,7 @@ Data Augmenter supports datasets in [UCR Time Series Classification datasets](ht
 args.ucr = True
 args.data_dir = "path_to_ucr_dataset"
 ```
+There are already several sample dataset files inside. If you need other datasets from UCR Time Series Classification datasets, please download them directly from their official website and place them in the relevant data folder to use them directly.
 ### Custom Datasets
 
 For custom datasets, ensure the data is in the correct format and specify the file paths:
