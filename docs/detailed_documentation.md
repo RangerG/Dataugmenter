@@ -21,8 +21,9 @@ Data Augmenter is a comprehensive Python library for augmenting time series data
 
 ## Installation
 
-You can install `Dataugmenter` either through PyPI using pip or directly from the source code on GitHub.
+You can install `Dataugmenter` <!-- either through PyPI using pip or --> directly from the source code on GitHub.
 
+<!--
 ### Using Pip
 
 To install the latest stable release of `Dataugmenter` from PyPI, use the following command:
@@ -30,6 +31,7 @@ To install the latest stable release of `Dataugmenter` from PyPI, use the follow
 ```bash
 pip install Dataugmenter
 ```
+-->
 
 ### From Source
 
