@@ -97,7 +97,7 @@ For more detailed information about the library, including installation instruct
 We welcome contributions to the Dataugmenter Library! Please refer to our contribution guidelines for details on how to contribute.
 
 ## Acknowledgments
-This library is developed based on the insights and code from Brian Iwana's research. Please visit the [GitHub repository](https://github.com/uchidalab/time_series_augmentation) and the [research paper](https://doi.org/10.1371/journal.pone.0254841) for more information. 
+This library is developed based on the insights and code from Brian Iwana's research. Please visit the [GitHub repository](https://github.com/uchidalab/time_series_augmentation) for more information. 
 
 ## License
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
