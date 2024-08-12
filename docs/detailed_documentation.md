@@ -200,6 +200,10 @@ Data Augmenter provides a comprehensive suite of data augmentation techniques fo
 - **Description**: A variant of Discriminative DTW Warp focusing on shape-based features.
 - **Usage**: Enabled by setting `discsdtw = True`.
 
+### EMD
+- **Description**: Empirical Mode Decomposition (EMD).
+- **Usage**: Enabled by setting `emd = True`.
+
 These algorithms can be combined or used independently to achieve the desired augmentation effect. The library is designed to be flexible, allowing users to experiment with different combinations to find the most effective augmentation strategy for their specific dataset.
 
 The data augmentation techniques implemented in this library are based on the research conducted by Brian Iwana. For a comprehensive understanding, refer to his [research paper](https://doi.org/10.1371/journal.pone.0254841).
