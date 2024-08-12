@@ -178,6 +178,7 @@ def augment(x, y, args):
     from ..data_augmenter import Transformation_Based_Methods as aug1
     from ..data_augmenter import Pattern_Based_Methods as aug2
     from ..data_augmenter import Generative_Methods as aug3
+    from ..data_augmenter import Decomposition_Based_Methods as aug4
 
     augmentation_tags = ""
     if args.jitter:
@@ -228,4 +229,7 @@ def augment(x, y, args):
     if args.gan:
         x = aug3.gan(x, y, args)
         augmentation_tags += "_gan"
+    if args.emd:
+        x = aug4.emd_augmentation(x)
+        augmentation_tags += "_emd"  # Iwana的没有
     return x, augmentation_tags

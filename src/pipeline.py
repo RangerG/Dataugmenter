@@ -38,6 +38,7 @@ class DefaultArgs:
         self.discdtw = False
         self.discsdtw = False
         self.gan = False
+        self.emd = False
         self.extra_tag = ""
 
         # Dataset-related settings

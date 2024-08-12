@@ -99,6 +99,7 @@ Here's a brief overview of the key parameters in the Data Augmenter library, alo
 - `wdba`: Default - `False`. Enables or disables the Weighted DBA augmentation technique.
 - `discdtw`: Default - `False`. Enables or disables the discriminative DTW warp augmentation technique.
 - `discsdtw`: Default - `False`. Enables or disables the discriminative shape DTW warp augmentation technique.
+- `emd`: Default - `False`. Enables or disables the EMD augmentation technique.
 
 Feel free to adjust these parameters based on the requirements of your dataset and the specific augmentations you wish to apply.
 
